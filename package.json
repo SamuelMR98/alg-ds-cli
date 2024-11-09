@@ -1,0 +1,27 @@
+{
+  "name": "alg-ds-cli",
+  "version": "1.0.0",
+  "description": "Algorithms & Data Structures CLI App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelMR98/alg-ds-cli.git"
+  },
+  "author": "Samuel Mera Ricardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelMR98/alg-ds-cli/issues"
+  },
+  "homepage": "https://github.com/SamuelMR98/alg-ds-cli#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "bin": {
+    "alg-ds-cli": "./bin/index.js"
+  },
+  "type": "module"
+}
